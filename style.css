@@ -19,6 +19,10 @@ a:hover {
     cursor: pointer;
 }
 
+footer {
+    margin: 50px 0 20px 0;
+}
+
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -687,6 +691,8 @@ p {
     font-size: 12px;
 }
 
+
+
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
@@ -837,6 +843,8 @@ h4 {
 .bg-atlanta-20made-20sign-20orange {
     background-image: url("img/atlanta%20made%20sign%20orange.jpg");
 }
+
+
 
 @media (max-width: 1024px) {
     .bloc {
