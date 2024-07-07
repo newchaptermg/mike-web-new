@@ -37,6 +37,10 @@ a:hover {
     -o-background-size: cover;
     background-size: cover;
     position: relative;
+    padding-left: 20px; /* Fallback value */
+    padding-right: 20px; /* Fallback value */
+    padding-left: env(safe-area-inset-left, 20px);
+    padding-right: env(safe-area-inset-right, 20px);
 }
 
 .bloc .container {
@@ -670,7 +674,7 @@ a {
 .statement-bloc-text {
     line-height: 26px;
     font-style: italic;
-    font-size: 20px;
+    font-size: 20px;.bloc
     text-align: center;
     font-weight: lighter;
     max-width: 520px;
@@ -782,7 +786,7 @@ h4 {
 }
 
 .tc-white {
-    color: #364577!important;
+    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine {
